@@ -4,7 +4,10 @@ This folder contains scripts for bulk management of accounts in Zeroshell.
 
 ### Prerequisites
 
-Before using the script, make sure you have SSH and SCP access to your Zeroshell machine. To activate SCP, access your Zeroshell machine bash and write chsh followed by /bin/bash.
+Before using the script, make sure you have SSH and SCP access to your Zeroshell machine. To activate SCP, access your Zeroshell machine bash and write:
+```
+chsh -s /bin/bash admin
+```
 
 WARNING! In this release, the scripts leave some leftover files behind; also, disconnect.sh seems bugged in some devices, requiring a reboot of the machine to actually disconnect kicked users.
 
