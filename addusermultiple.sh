@@ -10,3 +10,5 @@ for i in `seq 1 $ITERATIONS`;
 do
     . ./adduser.sh $PREFIX
 done
+
+rm user.ldif ieopass.sh kerberos.cmd createuser.sh -f
